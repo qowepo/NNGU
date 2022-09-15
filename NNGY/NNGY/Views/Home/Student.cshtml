@@ -1,0 +1,98 @@
+﻿@model IEnumerable<student>
+
+       
+     <div class="tool p-3 ">
+            <div class="row">
+                <div class="col-6 m-auto">
+                    <a asp-controller="Student" asp-action="Create" value="Create new student" type="button" class="btn btn-xl btn-outline-secondary"><img src = "/img/for_page/user-plus-solid.svg" width="16"/></a>
+                    <a asp-controller="Home" asp-action="Student" type="button" value="Фильтр" class="btn btn-xl btn-outline-secondary"><img src = "/img/for_page/filter-solid.svg" width="16"/></a>
+                </div>
+                <div class="col-6 m-auto">
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-4" type="search" onkeyup="SelectObjects(event)" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>     
+       </div>  
+<div class="album bg-light">
+   
+    <div class="container m-0">      
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 row-cols-xl-3 g-3">
+        @for(var i = 0; i < Model.Count(); i++) {
+
+            <div class="col">
+              <div id = "card" class="card shadow-sm">
+                <img class="img img-fluid" src=@Model.ElementAt(i).photo_link width="100%" height="225"/>
+                <div class="card-body">
+                  <h4 name="search" title="@Model.ElementAt(i).name @Model.ElementAt(i).surname">@Model.ElementAt(i).name @Model.ElementAt(i).surname</h4>
+                  <p class="card-text">@Model.ElementAt(i).about_me</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a asp-controller="Student" asp-action="Details" asp-route-id="@Model.ElementAt(i).id" type="button" class="btn btn-md btn-outline-secondary">View</a>
+                      <a asp-controller="Student" asp-action="Edit" asp-route-id="@Model.ElementAt(i).id" type="button" class="btn btn-md btn-outline-secondary">Edit</a>
+                    </div>
+                    <h6 title="@Model.ElementAt(i).room" name="search">@Model.ElementAt(i).room комната</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+        }
+      </div>
+    </div>
+  </div>
+
+
+  <style>
+   .tool {
+
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+      background-color: rgb(248 249 250 / 0.8);
+      z-index: 3; 
+       
+   }   
+  </style>
+
+  <script>
+      function SelectObjects(event) { 
+            
+            var elts = document.getElementsByName('search');
+          
+            var finded = false;
+            var coord = '';
+            for (var i = 0; i < elts.length; ++i) {
+                if (event.target.value == "") {
+                    elts[i].style = "";
+                }
+                else if (elts[i].title.toLowerCase().indexOf(event.target.value.toLowerCase()) >= 0) {
+
+                      
+                    elts[i].style = "color: rgb(214, 122, 127);"; finded = true;
+                    if (coord == '') {                          
+                        coord = i;                        
+                    }
+                }
+                else {
+                    elts[i].style = "";
+                }
+            }     
+             
+          if (finded) {
+              //document.getElementById('card').scrollTo(0, (coord.top - 200));
+
+              $('html,body').animate({
+                  scrollTop: $(elts[coord]).offset().top - 500
+              },
+                  300);
+          }
+          else {
+
+               $('html,body').animate({
+                  scrollTop: $(elts[0]).offset().top - 500
+              },
+                  300);
+          }
+         } 
+  </script>

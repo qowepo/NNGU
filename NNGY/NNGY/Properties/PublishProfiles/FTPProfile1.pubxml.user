@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://myNNGY.somee.com/www.myNNGY.somee.com</_PublishTargetUrl>
+    <History>False|2022-09-10T18:51:05.2379260Z;True|2022-09-05T23:11:54.2731544+03:00;True|2022-09-05T23:01:45.7030457+03:00;True|2022-09-05T09:12:29.1899384+03:00;True|2022-09-04T23:29:06.9424150+03:00;True|2022-09-02T16:10:14.1384784+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 02:59:32</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>07/13/2022 00:50:18</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>07/13/2022 00:50:44</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>07/13/2022 00:50:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>07/13/2022 00:51:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>01/14/2022 22:54:16</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>10/20/2020 00:51:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/13/2020 03:21:34</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/13/2020 03:23:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/13/2020 03:25:30</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/13/2020 03:31:32</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/13/2020 03:27:48</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 11:36:56</publishTime>
+    </File>
+    <File Include="NNGY.deps.json">
+      <publishTime>09/06/2022 23:40:37</publishTime>
+    </File>
+    <File Include="NNGY.dll">
+      <publishTime>09/10/2022 21:34:35</publishTime>
+    </File>
+    <File Include="NNGY.exe">
+      <publishTime>09/10/2022 21:34:35</publishTime>
+    </File>
+    <File Include="NNGY.pdb">
+      <publishTime>09/10/2022 21:34:35</publishTime>
+    </File>
+    <File Include="NNGY.runtimeconfig.json">
+      <publishTime>09/02/2022 15:15:29</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>11/15/2019 11:56:36</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 02:59:34</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 21:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 21:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 21:13:38</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 21:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 11:54:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>11/15/2019 11:54:20</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll">
+      <publishTime>11/15/2019 11:54:30</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 02:59:34</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 11:53:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 11:53:46</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 11:37:04</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>09/18/2018 22:38:14</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/13/2020 03:20:12</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 11:37:36</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 11:37:42</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>11/15/2019 11:56:44</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>11/15/2019 11:56:52</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>09/10/2022 21:35:18</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/css/main.css">
+      <publishTime>09/06/2022 23:31:40</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/css/util.css">
+      <publishTime>09/06/2022 23:31:40</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/css/font-awesome.css">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/HELP-US-OUT.txt">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/animated.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/bordered-pulled.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/core.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/fixed-width.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/font-awesome.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/icons.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/larger.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/list.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/mixins.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/path.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/rotated-flipped.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/screen-reader.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/stacked.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/less/variables.less">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/font-awesome.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_animated.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_core.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_fixed-width.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_icons.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_larger.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_list.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_mixins.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_path.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_screen-reader.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_stacked.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/font-awesome-4.7.0/scss/_variables.scss">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-Black.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-BlackItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-Bold.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-BoldItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-ExtraBold.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-ExtraLight.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-ExtraLightItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-Italic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-Light.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-LightItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-Medium.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-MediumItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-Regular.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-SemiBold.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-SemiBoldItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-Thin.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/Montserrat-ThinItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/montserrat/OFL.txt">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-Black.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-BlackItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-Bold.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-BoldItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-ExtraBold.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-ExtraBoldItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-ExtraLight.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-ExtraLightItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-Italic.ttf">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-Light.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-LightItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-Medium.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-MediumItalic.ttf">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-Regular.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-SemiBold.ttf">
+      <publishTime>09/06/2022 23:31:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-SemiBoldItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-Thin.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/fonts/poppins/Poppins-ThinItalic.ttf">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/images/icons/favicon.ico">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/images/unn_logo_eng1.png">
+      <publishTime>09/07/2022 22:57:17</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/js/main.js">
+      <publishTime>09/06/2022 23:31:41</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/animate/animate.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap.css.map">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/js/popper.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/js/popper.min.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/bootstrap/js/tooltip.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/css-hamburgers/hamburgers.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/css-hamburgers/hamburgers.min.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/jquery/jquery-3.2.1.min.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/select2/select2.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/select2/select2.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/select2/select2.min.css">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/select2/select2.min.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/login_form/vendor/tilt/tilt.jquery.min.js">
+      <publishTime>09/06/2022 23:31:43</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/1.png">
+      <publishTime>08/29/2022 20:13:34</publishTime>
+    </File>
+    <File Include="wwwroot/img/10.png">
+      <publishTime>09/05/2022 22:17:56</publishTime>
+    </File>
+    <File Include="wwwroot/img/11.png">
+      <publishTime>09/05/2022 22:20:01</publishTime>
+    </File>
+    <File Include="wwwroot/img/12.png">
+      <publishTime>09/05/2022 22:20:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/2.png">
+      <publishTime>08/29/2022 20:15:56</publishTime>
+    </File>
+    <File Include="wwwroot/img/3.png">
+      <publishTime>08/29/2022 20:17:07</publishTime>
+    </File>
+    <File Include="wwwroot/img/4.png">
+      <publishTime>08/29/2022 20:18:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/5.png">
+      <publishTime>09/04/2022 23:06:31</publishTime>
+    </File>
+    <File Include="wwwroot/img/6.png">
+      <publishTime>09/04/2022 23:08:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/7.png">
+      <publishTime>09/04/2022 23:09:55</publishTime>
+    </File>
+    <File Include="wwwroot/img/8.png">
+      <publishTime>09/04/2022 23:15:22</publishTime>
+    </File>
+    <File Include="wwwroot/img/9.png">
+      <publishTime>09/05/2022 22:16:58</publishTime>
+    </File>
+    <File Include="wwwroot/img/for_page/check2.svg">
+      <publishTime>09/09/2022 12:04:48</publishTime>
+    </File>
+    <File Include="wwwroot/img/for_page/chevron-left.svg">
+      <publishTime>09/09/2022 12:04:59</publishTime>
+    </File>
+    <File Include="wwwroot/img/for_page/nngu_index.jpg">
+      <publishTime>09/05/2022 15:47:58</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>09/05/2022 14:50:19</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>08/26/2022 23:01:10</publishTime>
+    </File>
+    <File Include="wwwroot/NNGY.styles.css">
+      <publishTime>09/02/2022 15:15:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

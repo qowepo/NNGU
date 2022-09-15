@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://myNNGY.somee.com/www.myNNGY.somee.com/http://myNNGY.somee.com</_PublishTargetUrl>
+    <History>False|2022-09-02T12:56:57.5973894Z;False|2022-09-02T15:55:20.6409605+03:00;</History>
+  </PropertyGroup>
+</Project>
